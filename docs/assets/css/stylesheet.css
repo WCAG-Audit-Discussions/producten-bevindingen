@@ -65,7 +65,7 @@ nav[aria-label="main"] li a,
 nav[aria-label="main"] li img {
 	display: block;
 }
-nav[aria-label="main"] li:not(:first-child) a {
+nav[aria-label="main"] li a {
 	padding: 0.5em 1em;
 	color: var(--white);
 	outline-offset: -0.5em;
