@@ -32,7 +32,7 @@ a {
 	color: inherit;
 }
 
-h1 { 
+h1 {
 	font-weight: 400;
 	max-width: 20em;
 	line-height: 1.3;
@@ -57,7 +57,7 @@ nav[aria-label="main"] ul {
 }
 nav[aria-label="main"] li {
 	list-style: none;
-}	
+}
 nav[aria-label="main"] li:first-child {
 	margin-right: auto;
 }
@@ -128,6 +128,14 @@ h1 + .list--meta-links {
 .link--github:hover {
 	color: var(--blue);
 	background-color: var(--blue-light);
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0;
+	padding: 0 0 0.5em 0;
 }
 
 footer {
