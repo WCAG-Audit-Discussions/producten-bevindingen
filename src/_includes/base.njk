@@ -1,0 +1,37 @@
+{# base.jnk, main template for the website #}
+<!DOCTYPE html>
+<html lang="nl">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>{% if title %} {{ title | striptags }} {% endif %}</title>
+		<link rel="stylesheet" href="{{ '/assets/css/stylesheet.css' | url }}">
+
+		<!–– CSS for displaying code examples––>
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<nav aria-label="main">
+			<ul>
+				<li><a href="{{ '/' | url }}">Voorpagina bevindingen producten</a></li>
+				<li><a href="https://github.com/WCAG-Audit-Discussions/producten-bevindingen/issues?q=is%3Aissue">Issues op GitHub</a></li>
+			</ul>
+		</nav>
+
+		<main id="main" class="block">
+
+			{{ content | safe }}
+
+		</main>
+
+		<footer class="block">
+			<p>Een initiatief van de Nederlandse en Vlaamse Accessibility community</a>.</p>
+			<p>Nieuwe bevindingen kun je aandragen op de <a href="https://github.com/WCAG-Audit-Discussions/producten-bevindingen/">GitHub repository WCAG-Audit-Discussions/producten-bevindingen</a></p>
+		</footer>
+	</body>
+
+</html>
