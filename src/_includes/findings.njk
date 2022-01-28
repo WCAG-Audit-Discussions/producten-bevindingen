@@ -39,6 +39,7 @@
                     , succescriterium: {{ finding.data.label }}
                 {%- endif -%}
         </h3>
+        <!-- file: src/findings/finding{{ finding.data.number }}.md -->
 		{%- if finding.data.github -%}
       <a href="{{ discussie.data.github }}" class="link link--github" aria-label="Melding op GitHub:  {{ finding.data.title }} ">
         Melding op GitHub
@@ -48,9 +49,6 @@
 		{{ finding.templateContent | safe }}
 
 		<dl>
-		{%- if finding.data.by  -%}
-            <dt>Rapporteur</dt><dd>{{ finding.data.by }}</dd>
-        {%- endif -%}
 		{%- if finding.data.datereported  -%}
 			<dt>Datum gerapporteerd</dt><dd>{{ finding.data.datereported }}</dd>
 		{%- endif -%}
