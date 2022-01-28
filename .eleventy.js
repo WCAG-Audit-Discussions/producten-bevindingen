@@ -28,17 +28,6 @@ module.exports = function(eleventyConfig) {
         });
     });
 
-    /**
-     * Sort the collection with the products by the tag number.
-     */
-    eleventyConfig.addCollection("products", (collection) =>
-        collection.getFilteredByGlob("./src/sc/*.njk").sort((b, a) => {
-            if (a.data.number > b.data.number) return -1;
-            else if (a.data.number < b.data.number) return 1;
-            else return 0;
-        })
-    );
-
 
     /**
      * Return the Object options.
