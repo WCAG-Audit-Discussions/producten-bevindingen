@@ -6,7 +6,7 @@ Om niet meerdere keren in Nederland hetzelfde onderzoek uit te voeren. Er zijn t
 
 ## Beheerders
 
-- Inhoudelijk beheer: [Jules Ernst](https://github.com/julezrulez) van 200OK
+- Inhoudelijk beheer: [Jules Ernst](https://github.com/julezrulez) van 200 OK
 - Technisch beheer: [Rian Rietveld](https://github.com/rianrietveld) van Level Level
 
 ## Bijdragen aan de GitHub Pages
