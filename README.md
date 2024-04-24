@@ -1,6 +1,6 @@
 # Producten bevindingen
 
-Doel: Hier verzamelen we toegankelijkheidsproblemen die vaker voorkomen en bekend zijn bij een producten en webdiensten.
+Doel: Hier verzamelen we toegankelijkheidsproblemen die vaker voorkomen en bekend zijn bij producten en webdiensten.
 
 De bevindingen worden gedeeld in [GitHub-issues](https://github.com/WCAG-Audit-Discussions/producten-bevindingen).
 Om te voorkomen dat we steeds weer apart deze functionaliteit auditten willen we vastleggen wat we hebben gevonden. Om te raadplegen en om te voorkomen dat we dubbel werk doen.
@@ -36,7 +36,7 @@ Heb je over een product ook een audit gedaan en heb je andere of aanvullende bev
 Als er problemen al zijn opgelost kan dit als comment bij het issue aangegeven worden. 
 Vraag aan een de originele schrijver van het issue, of aan een van de beheerders achter het nummer van het succescriterium bijvoorbeeld de toevoeging `(opgelost per dd-mm-jjjj in versienummer x.x)` te zetten. 
 
-Het kan namelijk ook zijn dat verschillende websites met verschillende versies werken en dat een probleem bij de ene website niet meer voorkomt, maar mogelijkerwijs nog wel bij een andere website. Dan is het handig om alle opmerkingen die ooit gemaakt zijn wel te laten staan. 
+Het kan namelijk ook zijn dat verschillende websites met verschillende versies werken en dat een probleem bij de een website niet meer voorkomt, maar mogelijkerwijs nog wel bij een andere website. Dan is het handig om alle opmerkingen die ooit gemaakt zijn wel te laten staan. 
 
 ### Status issues
 
